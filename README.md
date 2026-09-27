@@ -84,3 +84,8 @@ The project uses Java and the Android Gradle Plugin. Install JDK 17 and Android 
 ```
 
 Gradle 8.9 is supplied by the wrapper. Build outputs are written under `app/build/outputs/apk/modern/debug/` and `app/build/outputs/apk/legacy/debug/`. The v1.7 APKs are archived under `releases/v1.7/`; keep older release folders when preparing a later version.
+
+Login to the service with these credentials:
+URL:https://epicsclient.chunkp.workers.dev/
+Username:user
+Password:1234
