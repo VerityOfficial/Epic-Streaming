@@ -29,6 +29,16 @@ The APKs in this release folder are debug-signed sideload packages. They are rea
 
 Regular uses the flat blue interface; Android 5.1/API 22 and Android 6/API 23 use the blue-and-black 2015-style palette. Its full player animates into view on swipe-up. Classic is designed for Android 2.3 and newer, has its own skeuomorphic launcher icon, and can use the optional beveled interface. Both editions include the same library, search, and playback features; Android’s richer lock-screen media controls are available only on Android 5.0/API 21 and newer.
 
+## Standard Login
+
+Use the following credentials to log in to the service:
+
+| Field | Value |
+|---|---|
+| **URL** | https://epicsclient.chunkp.workers.dev/ |
+| **Username** | `user` |
+| **Password** | `1234` |
+
 ## Install both editions with ADB
 
 These commands are for Windows PowerShell, run from the Epic Streaming project folder that contains `gradlew.bat` and `releases/`. Install Android Platform Tools on the computer, enable **USB debugging** on the phone, connect it by USB, and accept the phone’s debugging authorization prompt.
@@ -84,10 +94,3 @@ The project uses Java and the Android Gradle Plugin. Install JDK 17 and Android 
 ```
 
 Gradle 8.9 is supplied by the wrapper. Build outputs are written under `app/build/outputs/apk/modern/debug/` and `app/build/outputs/apk/legacy/debug/`. The v1.7 APKs are archived under `releases/v1.7/`; keep older release folders when preparing a later version.
-
-Login to the service with these credentials:
-URL: https://epicsclient.chunkp.workers.dev/
-
-Username: user
-
-Password: 1234
