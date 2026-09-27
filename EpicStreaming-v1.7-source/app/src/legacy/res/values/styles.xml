@@ -1,0 +1,7 @@
+<resources>
+    <style name="AppTheme" parent="android:style/Theme.NoTitleBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#ffb347</item>
+        <item name="android:windowBackground">#252525</item>
+    </style>
+</resources>
