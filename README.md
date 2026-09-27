@@ -1,6 +1,7 @@
-# Epic Streaming 1.x
+# Epic Streaming 1.7.x
 
 Epic Streaming is a native Android music player for Navidrome servers. It connects over the Navidrome/Subsonic API and streams your library directly from your server. Google Play Services are not required.
+Epic Streaming has moved to focus on F-Droid. Get the repo at
 
 ## Download
 
@@ -8,8 +9,8 @@ Choose the APK for your Android version. Both editions can be installed together
 
 | Edition | Android support | Package ID | Launcher icon | APK |
 | --- | --- | --- | --- | --- |
-| **Regular** | Android 5.1/API 22 and newer | `com.epicstreaming.app` | Flat blue music-record icon | [Regular APK]([releases/download/1.7.1/EpicStreaming-Regular-API22-v1.7.1.apk) |
-| **Classic** | Android 2.3/API 9 and newer | `com.epicstreaming.app.legacy` | Glossy, beveled skeuomorphic record icon | [Classic APK](releases/download/1.7.1/EpicStreaming-Classic-API9-v1.7.1.apk) |
+| **Regular** | Android 5.1/API 22 and newer | `com.epicstreaming.app` | Flat blue music-record icon | [Regular APK]([releases/download/1.7.6/EpicStreaming-Regular-API22-v1.7.6.apk) |
+| **Classic** | Android 2.3/API 9 and newer | `com.epicstreaming.app.legacy` | Glossy, beveled skeuomorphic record icon | [Classic APK](releases/download/1.7.1/EpicStreaming-Classic-API9-v1.7.6.apk) |
 
 The APKs in this release folder are debug-signed sideload packages. They are ready to install with ADB; they are not Google Play Store packages. Earlier APK releases remain archived in `releases/v1.0/` through `releases/v1.6/`.
 
