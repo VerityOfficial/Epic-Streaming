@@ -1,7 +1,7 @@
 # Epic Streaming 1.7.x
 
 Epic Streaming is a native Android music player for Navidrome servers. It connects over the Navidrome/Subsonic API and streams your library directly from your server. Google Play Services are not required.
-Epic Streaming has moved to focus on F-Droid. Get the repo at
+Epic Streaming has moved to focus on F-Droid. Get the repo at https://verityofficial.github.io/EStreamFDroid/repo/
 
 ## Download
 
